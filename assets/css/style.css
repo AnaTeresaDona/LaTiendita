@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b8f5f5;
+}
+
+h1, p, h2 {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f5c764;
+}
+
+.carrito {
+  color: #faa05a;
+}
+
+.novedades, .ofertas {
+  font-size: xx-large;
+  text-align: center;
+  padding: 5%;
+}
+
+.card {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.boton {
+  align-items: center;
+  background-color: #faa05a;
+  box-shadow: 2px 1px #f5c764;
+  color: #ffffff;
+}
+.boton:hover {
+  background-color: #f5c764;
+}
+
+.carrusel-title, .carrusel-text {
+  text-shadow: 2px 1px #c8c6c6;
+}
+
+.derechos {
+  font-size: small;
+}
+
+footer {
+  margin-top: 3%;
+  padding: 1%;
+  background-color: #f5c764;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+$colorPrincipal: #f5c764;
+$colorSecundario:#faa05a;
+$tipografia:Verdana, sans-serif;
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #b8f5f5;
+}
+
+h1, p, h2{
+    font-family: $tipografia;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: $colorPrincipal;
+}
+
+.carrito{
+    color: $colorSecundario;
+}
+
+.novedades, .ofertas{
+    font-size: xx-large;
+    text-align: center;
+    padding: 5%;
+}
+
+.card{
+    width:100%;
+    padding:5px;
+    margin: 5px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.boton{
+    align-items: center;
+    background-color: $colorSecundario;
+    box-shadow: 2px 1px $colorPrincipal;
+    color: #ffffff;
+    &:hover {
+        background-color: $colorPrincipal;
+    }
+
+}
+
+.carrusel-title, .carrusel-text{
+    text-shadow: 2px 1px #c8c6c6;
+}
+
+.derechos{
+    font-size: small;
+}
+
+footer{
+    margin-top: 3%;
+    padding: 1%;
+    background-color: $colorPrincipal;
+}
